@@ -1,0 +1,15 @@
+# Cấu hình trạng thái khớp
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50
+
+# Bộ điều khiển cánh tay
+arm_controller:
+  type: position_controllers/JointGroupPositionController
+  joints:
+    - arm_1
+    - arm_2
+/gazebo_ros_control/pid_gains:
+  arm_1: {p: 1.0, i: 0.0, d: 0.0}
+  arm_2: {p: 1.0, i: 0.0, d: 0.0}
+
