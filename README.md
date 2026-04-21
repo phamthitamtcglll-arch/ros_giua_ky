@@ -13,14 +13,14 @@ chạy trên Ros1
    
 2. # Cài đặt các thư viện ROS Base
 
-  sudo apt update
-  # Cài đặt bộ điều khiển cho cánh tay và bánh xe
-  sudo apt install ros-noetic-gazebo-ros-control ros-noetic-joint-state-controller \
-  ros-noetic-effort-controllers ros-noetic-position-controllers \
-  ros-noetic-velocity-controllers ros-noetic-joint-trajectory-controller \
-  ros-noetic-diff-drive-controller
-  # Cài đặt các gói hỗ trợ robot state (để xem trong RViz)
-  sudo apt install ros-noetic-robot-state-publisher ros-noetic-rviz
+   sudo apt update
+   Cài đặt bộ điều khiển cho cánh tay và bánh xe
+   sudo apt install ros-noetic-gazebo-ros-control ros-noetic-joint-state-controller \
+   ros-noetic-effort-controllers ros-noetic-position-controllers \
+   ros-noetic-velocity-controllers ros-noetic-joint-trajectory-controller \
+   ros-noetic-diff-drive-controller
+   Cài đặt các gói hỗ trợ robot state (để xem trong RViz)
+   sudo apt install ros-noetic-robot-state-publisher ros-noetic-rviz
   
 3. # Tạo workspace và kích hoạt
    
@@ -34,10 +34,15 @@ chạy trên Ros1
    
    sudo apt install ros-noetic-teleop-twist-keyboard
    
-7. # Mở gazebao: roslaunch my_robot gazebo.launch
-   # Mở Rviz: roslaunch my_robot display.launch
+5. # Mở gazebao
+
+   roslaunch my_robot gazebo.launch
    
-9. # Plugin cho Lidar và Camera trong Gazebo
+   # Mở Rviz
+   
+   roslaunch my_robot display.launch
+   
+6. # Plugin cho Lidar và Camera trong Gazebo
     
    sudo apt install ros-noetic-gazebo-plugins ros-noetic-gazebo-ros
    
