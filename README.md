@@ -24,15 +24,15 @@ chạy trên Ros1
   
 3. # Tạo workspace và kích hoạt
    
-   Tạo thư mục:
-   mkdir -p ~/catkin_ws/src
-   Di chuyển vào:
-   cd ~/catkin_ws/src
+   Tạo thư mục
+   mkdir -p ~/catkin_ws/src\
+   Di chuyển vào
+   cd ~/catkin_ws/src\
    thả file vào đây
-   Biên dịch:
-   cd ~/catkin_ws
-   Kích hoạt môi trường:
-   source devel/setup.bash
+   Biên dịch
+   cd ~/catkin_ws\
+   Kích hoạt môi trường
+   source devel/setup.bash\
    
 5. # Cài đặt các thư viện Python
    
