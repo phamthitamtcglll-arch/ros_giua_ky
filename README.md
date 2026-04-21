@@ -24,17 +24,21 @@ chạy trên Ros1
   
 3. # Tạo workspace và kích hoạt
    
-   Tạo thư mục: mkdir -p ~/catkin_ws/src
-   Di chuyển vào: cd ~/catkin_ws/src
+   Tạo thư mục:
+   mkdir -p ~/catkin_ws/src
+   Di chuyển vào:
+   cd ~/catkin_ws/src
    thả file vào đây
-   Biên dịch: cd ~/catkin_ws
-   Kích hoạt môi trường: source devel/setup.bash
+   Biên dịch:
+   cd ~/catkin_ws
+   Kích hoạt môi trường:
+   source devel/setup.bash
    
-4. # Cài đặt các thư viện Python
+5. # Cài đặt các thư viện Python
    
    sudo apt install ros-noetic-teleop-twist-keyboard
    
-5. # Mở gazebao
+6. # Mở gazebao
 
    roslaunch my_robot gazebo.launch
    
@@ -42,7 +46,7 @@ chạy trên Ros1
    
    roslaunch my_robot display.launch
    
-6. # Plugin cho Lidar và Camera trong Gazebo
+7. # Plugin cho Lidar và Camera trong Gazebo
     
    sudo apt install ros-noetic-gazebo-plugins ros-noetic-gazebo-ros
    
